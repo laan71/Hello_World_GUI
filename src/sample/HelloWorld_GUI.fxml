@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="452.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="71.0" layoutY="32.0" prefHeight="35.0" prefWidth="106.0" text="Min GUI!">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="71.0" layoutY="94.0" prefHeight="26.0" prefWidth="106.0" text="Send kommando" />
+      <TextField layoutX="71.0" layoutY="68.0" prefHeight="26.0" prefWidth="200.0" text="Indtast noget" />
+      <TextArea layoutX="71.0" layoutY="120.0" prefHeight="326.0" prefWidth="200.0" text="Her kommer svaret fra programmet" />
+   </children>
+</AnchorPane>
